@@ -15,9 +15,20 @@ export default async function Home() {
               <h1 className="text-4xl font-bold text-gray-900">Daily Song</h1>
               <p className="text-gray-600 mt-2">A song a day keeps the silence away 🎵</p>
             </div>
-            <a href="/admin" className="bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors">
-              + Add Song
-            </a>
+            <div className="flex gap-3">
+              
+              <a href="/playlist"
+                className="bg-gray-100 text-gray-900 px-6 py-3 rounded-lg font-medium hover:bg-gray-200 transition-colors"
+              >
+                🎵 Playlist
+              </a>
+              
+              <a href="/admin"
+                className="bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors"
+              >
+                + Add Song
+              </a>
+            </div>
           </div>
         </div>
       </header>
